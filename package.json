@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A project for practising DOM manipulation with JS. For the Generation Junior Web Developer bootcamp.",
   "main": "index.js",
-  "dependencies": {
-    "axios": "^0.21.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": ""

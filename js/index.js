@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
           url: urlUsers,
         }).then((response) => {
           console.log(response);
-          // map over the data array and inject onto page using innerHTML
+          // call the displayResults function, passing in the response object
         });
       })
       .catch((err) => {
@@ -53,4 +53,11 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(err);
       });
   });
+
+  const displayResults = (results) => {
+    /*
+      Map over the data array (see Array.prototype.map) and create an ES6 template literal which you will 
+      inject into the #results element using innerHTML.
+    */
+  };
 });
